@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Futura", sans-serif;
+}
+
+
+/*------------------Nav Bar--------------*/
+h4 {
+	font-weight: 300;
+}
+
+.container{
+    clear:both;
+    overflow:auto;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    height: 100px;
+}
+
+nav{
+    float:right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo img{
+    float:left;
+    margin-left: 20px;
+    margin-top: 22px;
+    color: #f50900;
+    font-weight: 600;
+    width: 15%;
+    text-align: center;
+}
+
+.logo a.active{color: #f50900;}
+
+nav ul li{
+    display: inline-block; 
+    padding: 20px 8px;
+    font-size: 16px; 
+    color: #f44336;
+    text-align: center;
+}
+
+nav ul li:hover, a:hover{
+    color: #222222;
+}
+
+nav ul li:active{
+    color: black;
+}
+
+nav ul a.active{
+    color: #222222;
+}
+
+nav ul a {
+    color: #f50900;
+    font-weight: 500;
+    text-decoration: none;
+}
+/*-------------Intro-------------------*/
+#intro {
+    background-color: white;
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#intro h2 {
+    color: #f44336;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: -1px;
+}
+
+#intro h3 {
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 18px;
+}
+/*-----------Work Box------------------*/
+.workbox_wrapper {
+    width: 70%;
+    height: 1300px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.workbox_left {
+    width: 475px;
+    height: 600px;
+    margin: 0px 10px 50px 0px;
+    box-shadow: 5px 3px 8px #dddddd;
+    float: left;
+    
+}
+
+.workbox_left img {
+    width: 100%;
+}
+
+.workbox_right {
+    width: 475px;
+    height: 600px;
+    margin: 0px 0px 50px 10px;
+    box-shadow: 5px 3px 8px #dddddd;
+    float: right;
+}
+
+.workbox_right img {
+    width: 100%;
+}
+
+.workbox_words {
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.workbox_words h1 {
+    font-size: 25px;
+}
+
+.workbox_words h4 {
+    width: 100%;
+}
+
+.workbox_words a {
+    text-decoration: none;
+    color: #f44336;
+}
+
+#red_words {
+    color: #f44336;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+@media only screen and (min-width: 1080px) {
+    
+    .container{
+        clear:both;
+        overflow:auto;
+        width: 100%;
+        margin: auto;
+        top: 0;
+        background-color: white;
+        position: fixed;
+        height: 100px;
+    }
+
+    nav{
+        float:right;
+        margin-right: 60px;
+        margin-top: 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    .logo img{
+        float:left;
+        margin-left: 50px;
+        margin-top: 22px;
+        color: #f50900;
+        font-weight: 600;
+        width: 4.3%;
+        text-align: center;
+    }
+
+    .logo a.active{color: #f50900;}
+
+    nav ul li{
+        display: inline-block; 
+        padding: 25px 12px;
+        font-size:17px; 
+        color: #f44336;
+        text-align: center;
+    }
+
+    nav ul li:hover, a:hover{
+        color: #222222;
+    }
+
+    nav ul li:active{
+        color: black;
+    }
+
+    nav ul a.active{
+        color: #222222;
+    }
+
+    nav ul a {
+        color: #f50900;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    /*-------------------------------*/
+
+    #intro {
+        background-color: white;
+        height: 250px;
+        width: 1000px;
+        margin: auto;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    #intro h2 {
+        color: #f44336;
+        font-weight: bolder;
+        font-size: 35px;
+        letter-spacing: -1px;
+    }
+
+    #intro h3 {
+        font-weight: 500;
+        line-height: 1.7;
+    }
+
+}
+
+
+.footer {
+    width: 80%;
+    margin: auto;
+    height: 250px;
+    background-color: white;
+    clear: both;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #f44336;
+}

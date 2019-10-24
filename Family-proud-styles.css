@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", "Futura", sans-serif;
+}
+/*--------------NAV BAR-------*/
+
+.container{
+    clear:both;
+    overflow:auto;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    height: 100px;
+}
+
+nav{
+    float:right;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo img{
+    float:left;
+    margin-left: 50px;
+    margin-top: 22px;
+    color: #f50900;
+    width: 4.3%;
+    text-align: center;
+}
+
+.logo a.active{color: #f50900;}
+
+nav ul li{
+    display: inline-block; 
+    padding: 25px 12px;
+    font-size:17px; 
+    color: #f50900;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav ul li:hover, a:hover{
+    color: #222222;
+}
+
+nav ul li:active{
+    color: black;
+}
+
+nav ul a.active{
+    color: #222222;
+}
+
+nav ul a {
+	color: #f50900;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+
+
+
+/* Text Classes ----------------------------------------------------- */
+.topic {
+	color: #333333;
+	font-size: 40px;
+	font-weight: 600;
+    line-height: 1.6;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.quote {
+	color: orange;
+	width: 70%;
+	font-weight: 600;
+    line-height: 1.5;
+    padding: 20px;
+}
+.subtopic {
+	color: #222222;
+	font-weight: 500;
+	line-height: 1;
+    padding: 10px 0px 0px 20px;
+}
+.subsubtopic {
+	color: orange;
+	font-weight: 100;
+	padding-top: 20px;
+	line-height: 0.5;
+}
+.paragraph {
+	color: #333333;
+	line-height: 1.6;
+	font-weight: 300;
+    padding: 15px 20px 20px 20px;
+}
+#blue_word_2 {
+    color: orange;
+    line-height: 10px;
+}
+.three_needs {
+	height: 200px;
+	margin: auto;
+	/*border: 2px solid black;*/
+	box-sizing: border-box;
+}
+/*--------------------------------------------------------------------*/
+
+/*----------------------Banner--------------------------------------*/
+
+.banner-words {
+    width: 100%;
+}
+
+#banner_light {
+    color: orange;
+	font-weight: 100;
+    padding: 0px 0px 0px 20px;
+}
+
+#banner_colored {
+    color: #555555;
+	font-weight: 100;
+	font-size: 20px;
+    padding: 0px 0px 0px 20px;
+}
+
+.banner-words h1 {
+    color: orange;
+	font-size: 50px;
+	font-weight: 600;
+    padding: 100px 0px 10px 20px;
+}
+
+.banner-words h2 {
+    padding: 0px 0px 5px 20px;
+    font-weight: 500;
+}
+
+.banner-wrapper {
+    width: 100%;
+}
+
+#banner_img {
+    display: none;
+}
+
+/*-------------------------Bar----------------------------------*/
+.bar {
+    clear: both;
+	background: #ffd04c;
+	height: 200px;
+	width: 350px;
+}
+
+#bar_title {
+    margin: auto;
+	padding-top: 60px;
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+#bar_words {
+    margin: auto;
+	padding-top: 15px;
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+/*-----------------------Research------------------------------*/
+
+.research-wrapper {
+    width: 100%;
+}
+
+.research-wrapper ul {
+    margin: 1em;
+}
+
+.research_pics {
+    width: 80%;
+    height: 280px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+/*-----------------------Ideation------------------------------*/
+
+.ideation {
+    background-color: #F2F2F2;
+	width: 100%;
+	height: 1100px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.ideation_text {
+    height: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.ideation_text img {
+    padding-left: 20px;
+    width:300px;
+}
+
+/*-----------------------Design------------------------------*/
+.design {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/*-----------------------Results------------------------------*/
+
+.results {
+    background-color: white;
+    height: 3450px;
+    width: 100%;
+}
+
+.results_topic {
+    color: white;
+    width: 76%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.results_pics {
+    width: 90%;
+    margin: auto;
+    height: 200px;
+}
+
+.results_pics img {
+    float: left; 
+    margin: 30px; 
+    box-shadow: 4px 4px 16px grey;
+}
+
+/*-----------------------Takeaway------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 750px) {
+   .bar {
+        width: 100%;
+    }
+    
+    .ideation_text img {
+        width: 500px;
+    }
+}
+
+/*--------------------------------------------*/
+@media only screen and (min-width: 1080px) {
+    
+    .banner-wrapper {
+        width: 90%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+    #banner_img {
+        display: inline-block;
+        float: right;
+        padding-top: 150px;
+    }
+    
+    .banner-words {
+        display: inline-block;
+        width: 45%;
+        float: left;
+    }
+    
+    .banner-words h1 {
+        color: orange;
+        font-size: 70px;
+        font-weight: 600;
+        padding: 200px 0px 10px 20px;
+    }
+    
+    .banner-words h2 {
+        line-height: 1.3;
+        width: 500px;
+    }
+    
+    /*----Research--*/
+    
+    .research-wrapper {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .research_pics img {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    
+    
+     /*----Ideation--*/
+    
+    .ideation {
+        height: 1750px;
+        border-radius: 40p;
+        width: 95%;
+    }
+    
+    .ideation_text {
+        width: 74%;
+        padding-top: 50px;
+    }
+    
+    .ideation_text img {
+        width: 800px;
+        margin-left: 40px;
+    }
+    
+     /*----Design--*/
+    
+    .design {
+        width: 70%;
+        margin: 50px auto;
+    }
+    
+    
+    
+     /*----Results--*/
+    
+    .results {
+        height: 1450px;
+    }
+    
+    .results h1 {
+        margin-left: 185px;
+    }
+    .results_pics {
+        margin: auto;
+    }
+    
+    #results-pic-1{
+        margin-left: 10%;
+    }
+    
+    
+     /*----Takeway--*/
+    .takeaways {
+        clear: both;
+        width: 70%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    
+    
+}
+
+
+.footer {
+    width: 100%;
+    height: 500px;
+    color: grey;
+    border: 2px solid black;
+}
