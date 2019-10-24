@@ -236,6 +236,10 @@ nav ul a {
         font-weight: 500;
         line-height: 1.7;
     }
+    
+    .workbox_wrapper {
+        width: 1000px;
+    }
 
 }
 
