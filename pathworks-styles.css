@@ -427,3 +427,8 @@ nav ul a {
     background-color: white;
     clear: both;
 }
+
+.footer a {
+    text-decoration: none;
+    color: #f44336;
+}
