@@ -104,6 +104,18 @@ nav ul a {
     
 }
 
+.workbox_left:hover {
+    box-shadow:
+        1px 1px #f44336,
+        2px 2px #f44336,
+        3px 3px #f44336,
+        4px 4px #f44336,
+        5px 5px #f44336,
+        6px 6px #f44336;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
 .workbox_left img {
     width: 100%;
 }
@@ -114,6 +126,17 @@ nav ul a {
     margin: 0px 0px 50px 10px;
     box-shadow: 5px 3px 8px #dddddd;
     float: right;
+}
+
+.workbox_right:hover {
+    box-shadow:
+        1px 1px #f44336,
+        2px 2px #f44336,
+        3px 3px #f44336,
+        4px 4px #f44336,
+        5px 5px #f44336,
+        6px 6px #f44336;
+    transition: .5s ease;
 }
 
 .workbox_right img {
