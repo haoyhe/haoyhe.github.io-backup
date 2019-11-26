@@ -73,9 +73,7 @@ nav ul a {
     background-color: white;
     height: 250px;
     width: 90%;
-    margin: auto;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin: 150px auto 50px auto;
 }
 #intro h2 {
     color: #f44336;
@@ -221,9 +219,7 @@ nav ul a {
         background-color: white;
         height: 250px;
         width: 1000px;
-        margin: auto;
-        margin-top: 200px;
-        margin-bottom: 100px;
+        margin: 150px auto 100px auto;
     }
     #intro h2 {
         color: #f44336;
@@ -259,4 +255,13 @@ nav ul a {
 
 .footer a:hover {
     color: #222222;
+}
+
+#intro-text {
+    float: left;
+    margin-top: 50px;
+}
+
+#balloonme {
+    float: right;
 }
