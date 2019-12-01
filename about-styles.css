@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Futura", sans-serif;
+}
+
+
+/*------------------Nav Bar--------------*/
+h4 {
+	font-weight: 300;
+}
+
+.container{
+    clear:both;
+    overflow:auto;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    height: 100px;
+}
+
+nav{
+    float:right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo img{
+    float:left;
+    margin-left: 20px;
+    margin-top: 22px;
+    color: #f50900;
+    font-weight: 600;
+    width: 75px;
+    text-align: center;
+}
+
+.logo a.active{color: #f50900;}
+
+nav ul li{
+    display: inline-block; 
+    padding: 20px 8px;
+    font-size: 16px; 
+    color: #f44336;
+    text-align: center;
+}
+
+nav ul li:hover, a:hover{
+    color: #222222;
+}
+
+nav ul li:active{
+    color: black;
+}
+
+nav ul a.active{
+    color: #222222;
+}
+
+nav ul a {
+    color: #f50900;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+/*------Footer-------*/
+.footer {
+    width: 80%;
+    margin: 100px auto 0px auto;
+    padding-top: 100px;
+    height: 100px;
+    background-color: white;
+    clear: both;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #f44336;
+}
+
+.footer a:hover {
+    color: #222222;
+}
+/*--------------------*/
+
+/*----------Text Classes---------*/
+.paragraph {
+	color: #333333;
+	line-height: 1.6;
+	font-weight: 300;
+    padding: 15px 20px 20px 0px;
+}
+
+/*-------------------------------*/
+
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+
+@media only screen and (min-width: 1080px) {
+    
+    .container{
+        clear:both;
+        overflow:auto;
+        width: 100%;
+        margin: auto;
+        top: 0;
+        background-color: white;
+        position: fixed;
+        height: 100px;
+    }
+
+    nav{
+        float:right;
+        margin-right: 60px;
+        margin-top: 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    .logo img{
+        float:left;
+        margin-left: 50px;
+        margin-top: 22px;
+        color: #f50900;
+        font-weight: 600;
+        width: 62px;
+        text-align: center;
+    }
+
+    .logo a.active{color: #f50900;}
+
+    nav ul li{
+        display: inline-block; 
+        padding: 25px 12px;
+        font-size:17px; 
+        color: #f44336;
+        text-align: center;
+    }
+
+    nav ul li:hover, a:hover{
+        color: #222222;
+    }
+
+    nav ul li:active{
+        color: black;
+    }
+
+    nav ul a.active{
+        color: #222222;
+    }
+
+    nav ul a {
+        color: #f50900;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
+.title {
+    background-color: white;
+    height: auto;
+    width: 1008px;
+    margin: auto;
+    margin-top: 150px;
+    clear: both;
+}
+
+.title h2 {
+    color: #f44336;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: -1px;
+}
+
+.aboutmetext {
+    width: 600px;
+    height: auto;
+    float: left;
+}
+
+
+.about-text-wrapper {
+    width: 1008px;
+    margin: auto;
+    height: auto;
+}
+
+
